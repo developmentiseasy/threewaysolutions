@@ -15,13 +15,13 @@ export default function page(state = initialState, action) {
     case GET_PHOTOS_REQUEST:
       return {
         ...state,
-        fetching: true
+        fetching: true,
+        year: action.payload,
       }
 
     case GET_PHOTOS_SUCCESS:
       return {
         ...state,
-        year: action.payload,
         photos: action.payload,
         fetching: false
       }

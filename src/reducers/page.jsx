@@ -1,29 +1,29 @@
 import {
   GET_PHOTOS_REQUEST,
-  GET_PHOTOS_SUCCESS
+  GET_PHOTOS_SUCCESS,
 } from '../actions/page/constants/PageConstants'
 
 const initialState = {
   year: 2016,
   photos: [],
-  fetching: false
+  fetching: false,
 }
 
-export default function page(state = initialState, action) {
+export default function page( state = initialState, action ) {
 
   switch (action.type) {
     case GET_PHOTOS_REQUEST:
       return {
         ...state,
-        fetching: true
+        fetching: true,
+        year: action.payload,
       }
 
     case GET_PHOTOS_SUCCESS:
       return {
         ...state,
-        year: action.payload,
         photos: action.payload,
-        fetching: false
+        fetching: false,
       }
 
     default:

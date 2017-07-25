@@ -16,7 +16,7 @@ class App extends Component {
     const { getPhotos } = this.props.pageActions
 
     return (
-      <div className="App container-fluid">
+      <div className="App container h-100">
         <div>
           <img className="logo" src={logo} alt="" />
         </div>

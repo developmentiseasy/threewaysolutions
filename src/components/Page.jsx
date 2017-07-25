@@ -22,6 +22,9 @@ export default class Page extends Component {
         {
           fetching ? <p>Loading...</p> : <p>You have {photos.length} photos</p>
         }
+        <div className="w-100">
+          <h3>TEST</h3>
+        </div>
       </div>
     )
   }

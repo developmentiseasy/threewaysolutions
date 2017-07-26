@@ -1,0 +1,29 @@
+.ParticlesHeader {
+    margin:0;
+    overflow: hidden;
+    font-size:0;
+}
+
+.ParticlesHeader canvas{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ParticlesHeader input{
+    display: none;
+}
+
+.ParticlesHeader p{
+    position: fixed;
+    left: 0;
+    color: #fff;
+    z-index:10;
+    font-size:16px;
+    font-family: Helvetica, Verdana, sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    bottom: 10%;
+    opacity: .1;
+}

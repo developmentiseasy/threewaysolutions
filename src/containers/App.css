@@ -1,28 +1,5 @@
-/*.App {*/
-  /*padding-top: 100px;*/
-  /*text-align: center;*/
-  /*background-color: #cedddc;*/
-  /*color: #333d3a;*/
-/*}*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 
-/*.App .logo {*/
-  /*animation: App-logo-spin infinite 20s linear;*/
-  /*margin-bottom: 50px;*/
-/*}*/
+.App {
 
-/*.App button {*/
-  /*padding: 6px 20px 6px 20px;*/
-  /*background-color: #81b3a7;*/
-  /*color: white;*/
-  /*border: 0 solid;*/
-  /*border-radius: 50px;*/
-/*}*/
-
-/*@keyframes App-logo-spin {*/
-  /*from {*/
-    /*transform: rotate(0deg);*/
-  /*}*/
-  /*to {*/
-    /*transform: rotate(360deg);*/
-  /*}*/
-/*}*/
+}

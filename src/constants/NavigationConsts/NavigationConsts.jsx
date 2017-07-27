@@ -1,15 +1,11 @@
 export const NAVIGATION_MENU_CONSTANTS = [
   {
-    id: 'about-us',
-    title: 'About Us',
+    id: 'contact-us',
+    title: 'Contact Us',
   },
   {
-    id: 'what-we-can',
-    title: 'What We Can',
-  },
-  {
-    id: 'workshop',
-    title: 'Workshop',
+    id: 'what-we-do',
+    title: 'What We Do',
   },
   {
     id: 'testimonials',
@@ -20,12 +16,12 @@ export const NAVIGATION_MENU_CONSTANTS = [
     title: 'Our Projects',
   },
   {
-    id: 'what-we-do',
-    title: 'What We Do',
+    id: 'workshop',
+    title: 'Workshop',
   },
   {
-    id: 'contact-us',
-    title: 'Contact Us',
+    id: 'about-us',
+    title: 'About Us',
   },
 ]
 

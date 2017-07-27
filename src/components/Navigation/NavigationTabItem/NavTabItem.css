@@ -1,7 +1,11 @@
 .NavTabItem {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-weight: 400;
-    font-size: .9rem;
+    font-size: 1.2vh;
     float: right;
     padding: 1vh;
+}
+
+.NavTabItem:hover {
+    cursor: pointer;
 }

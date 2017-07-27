@@ -5,9 +5,12 @@ import './NavTabItem.css'
 
 export default class NavTabItem extends Component {
   render() {
-    const { title } = this.props
+    const { title, onClick } = this.props
     return (
-      <div className="NavTabItem">
+      <div
+        className="NavTabItem"
+        onClick={onClick}
+      >
         {title}
       </div>
     )
@@ -15,6 +18,7 @@ export default class NavTabItem extends Component {
 }
 
 NavTabItem.PropTypes = {
+  onClick: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
   classNameTitle: PropTypes.string.isRequired,
 }

@@ -10,9 +10,9 @@ export default class ParticlesHeader extends Component {
       particles = [],
       amount = 0,
       mouse = { x: 0, y: 0 },
-      radius = 1
+      radius = 2
 
-    const colors = ['#303030', '#353535', '#252525', '#404040', '#202020']
+    const colors = ['#282828', '#454545', '#353535', '#404040', '#303030']
 
     const copy = document.querySelector('#copy')
 
@@ -26,12 +26,12 @@ export default class ParticlesHeader extends Component {
         x: x,
         y: y,
       }
-      this.r = Math.random() * 3 + 1
+      this.r = Math.random() * 3 + 2
       this.vx = (Math.random() - 0.5) * 10
       this.vy = (Math.random() - 0.5) * 10
       this.accX = 0
       this.accY = 0
-      this.friction = Math.random() * 0.05 + 0.94
+      this.friction = Math.random() * 0.02 + 0.94
 
       this.color = colors[Math.floor(Math.random() * 6)]
     }
@@ -39,8 +39,8 @@ export default class ParticlesHeader extends Component {
     Particle.prototype.render = function () {
 
 
-      this.accX = (this.dest.x - this.x) / 1000
-      this.accY = (this.dest.y - this.y) / 1000
+      this.accX = (this.dest.x - this.x) / 500
+      this.accY = (this.dest.y - this.y) / 500
       this.vx += this.accX
       this.vy += this.accY
       this.vx *= this.friction
@@ -79,7 +79,7 @@ export default class ParticlesHeader extends Component {
       }
     }
 
-    function onTouchEnd(e) {
+    function onTouchEnd() {
       mouse.x = -9999
       mouse.y = -9999
     }
@@ -113,11 +113,11 @@ export default class ParticlesHeader extends Component {
     function onMouseClick() {
       radius++
       if (radius === 5) {
-        radius = 0
+        radius = 2
       }
     }
 
-    function render(a) {
+    function render() {
       requestAnimationFrame(render)
       ctx.clearRect(0, 0, canvas.width, canvas.height)
       for (let i = 0; i < amount; i++) {

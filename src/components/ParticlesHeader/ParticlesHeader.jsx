@@ -12,7 +12,7 @@ export default class ParticlesHeader extends Component {
       mouse = { x: 0, y: 0 },
       radius = 1
 
-    const colors = ['#353535', '#252525', '#202020', '#151515', '#303030']
+    const colors = ['#303030', '#353535', '#252525', '#404040', '#202020']
 
     const copy = document.querySelector('#copy')
 
@@ -26,7 +26,7 @@ export default class ParticlesHeader extends Component {
         x: x,
         y: y,
       }
-      this.r = 2
+      this.r = Math.random() * 3 + 1
       this.vx = (Math.random() - 0.5) * 10
       this.vy = (Math.random() - 0.5) * 10
       this.accX = 0
@@ -99,8 +99,8 @@ export default class ParticlesHeader extends Component {
       ctx.globalCompositeOperation = 'screen'
 
       particles = []
-      for (let i = 0; i < ww; i += Math.round(ww / 300)) {
-        for (let j = 0; j < wh; j += Math.round(ww / 300)) {
+      for (let i = 0; i < ww; i += Math.round(ww / 200)) {
+        for (let j = 0; j < wh; j += Math.round(ww / 200)) {
           if (data[((i + j * ww) * 4) + 3] > 150) {
             particles.push(new Particle(i, j))
           }
@@ -112,8 +112,8 @@ export default class ParticlesHeader extends Component {
 
     function onMouseClick() {
       radius++
-      if (radius === 3) {
-        radius = 1
+      if (radius === 5) {
+        radius = 0
       }
     }
 

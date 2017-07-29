@@ -16,7 +16,7 @@ export default class Navigation extends Component {
       return (
         <NavTabItem
           title={ (navTab.title).toUpperCase() }
-
+          key={navTab.id}
         />
       )
     })

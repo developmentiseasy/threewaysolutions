@@ -11,7 +11,7 @@ export default class AboutUs extends Component {
           <div className="title-us">Us</div>
         </div>
         <div className="about-us-card">
-          0sdsadas
+          0sdsadasa
         </div>
       </div>
     )

@@ -1,0 +1,38 @@
+.AboutUs {
+  position: relative;
+  z-index: 10;
+}
+
+.AboutUs .about-us-cards {
+  height: auto;
+}
+
+.AboutUs .card-title {
+  top: -6.55vh;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 4vh;
+  position: absolute;
+}
+
+.AboutUs .title-about {
+  width: 13vw;
+  color: white;
+  padding-left: 1vw;
+  border: 5px solid #ffffff;
+  border-bottom: 0;
+}
+
+.AboutUs .title-us {
+  color: black;
+  width: 13vw;
+  padding-left: 1vw;
+  border: 5px solid #000000;
+  border-top: 0;
+}
+.block-of-cards {
+  height: 212px;
+}
+.cards {
+  padding: 0;
+}

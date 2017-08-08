@@ -12,7 +12,7 @@ export default class AboutUs extends Component {
         </div>
         <div className="col-md-12 about-us-cards">
           <div className="row cards">
-            <div className="block-of-cards col-md-4">1</div>
+            <div className="block-of-cards col-md-4">We are creative</div>
             <div className="block-of-cards col-md-4">2</div>
             <div className="block-of-cards col-md-4">3</div>
           </div>

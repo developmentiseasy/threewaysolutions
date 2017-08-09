@@ -3,6 +3,11 @@ import React, { Component } from 'react'
 import './AboutUs.css'
 
 export default class AboutUs extends Component {
+
+  sameFunc = () => {
+
+  }
+
   render() {
     return (
       <div className="AboutUs container">

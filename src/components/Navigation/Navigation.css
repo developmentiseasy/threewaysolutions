@@ -1,9 +1,10 @@
 .Navigation {
     top: 20px;
-    position: absolute;
+    position: fixed;
+    padding: 1vh;
     color: white;
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(255, 255, 255, .02);
+    background-color: rgba(0, 0, 0, .05);
 }
 
 .Navigation .header-logo {
@@ -16,4 +17,8 @@
 
 .Navigation .NavTabItem {
 
+}
+
+.Navigation .nav-top {
+    z-index: 1000;
 }

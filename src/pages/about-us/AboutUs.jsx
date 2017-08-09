@@ -16,7 +16,7 @@ export default class AboutUs extends Component {
               <span className="his">his</span></p>
             </div>
             <div className="block-of-cards col-md-4">We are ambitions</div>
-            <div className="block-of-cards col-md-4">We are ambitions</div>
+            <div className="block-of-cards col-md-4">We are ambitions.</div>
           </div>
           <div className="row cards">
             <div className="block-of-cards col-md-4">4</div>

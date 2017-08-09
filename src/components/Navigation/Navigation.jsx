@@ -3,9 +3,9 @@ import React, { Component } from 'react'
 import { map } from 'lodash'
 
 import NavTabItem from './NavigationTabItem/NavTabItem'
+import Logo from '../../common/Logo.png'
 
 import { NAVIGATION_MENU_CONSTANTS } from '../../constants/NavigationConsts/NavigationConsts'
-import Logo from '../../common/Logo.png'
 
 import './Navigation.css'
 

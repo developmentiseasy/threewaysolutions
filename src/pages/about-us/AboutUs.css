@@ -32,15 +32,18 @@
 }
 .block-of-cards {
   height: 212px;
+  padding: 0 40px 0 0;
+
 }
 .cards {
   padding: 0;
 }
 .we_are {
- margin-top: 43px;
+ margin:13vh 0 -8px 0;
+  color: #000000;
 }
 .text_lorem {
-  font-size: 11px;
+  font-size: 2vh;
 }
 .creative {
   font-size: 33px;

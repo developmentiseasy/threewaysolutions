@@ -3,11 +3,7 @@
   z-index: 10;
 }
 
-.AboutUs .about-us-cards {
-  height: auto;
-}
-
-.AboutUs .card-title {
+.AboutUs .about-us-title {
   top: -6.55vh;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
@@ -15,7 +11,7 @@
   position: absolute;
 }
 
-.AboutUs .title-about {
+.AboutUs .about-us-title .title-about {
   width: 13vw;
   color: white;
   padding-left: 1vw;
@@ -23,16 +19,46 @@
   border-bottom: 0;
 }
 
-.AboutUs .title-us {
+.AboutUs .about-us-title .title-us {
   color: black;
   width: 13vw;
   padding-left: 1vw;
   border: 5px solid #000000;
   border-top: 0;
 }
-.block-of-cards {
-  height: 212px;
+
+.AboutUs .cards {
+  height: auto;
+  z-index: 0;
 }
-.cards {
+
+.AboutUs .cards .cards-row {
+
+}
+
+.AboutUs .cards .cards-row .description-card {
   padding: 0;
 }
+
+.AboutUs .cards .cards-row .description-card .card-title {
+
+}
+
+.AboutUs .cards .cards-row .description-card .card-title .title-thin {
+  margin: 13vh 0 -1vh 0;
+  color: #000000;
+}
+
+.AboutUs .cards .cards-row .description-card .card-title .subtitle-bold {
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.AboutUs .cards .cards-row .description-card .card-context {
+  font-size: .85vw;
+}
+
+.AboutUs .cards .cards-row .description-card .card-context .his{
+  font-weight: 900;
+}
+

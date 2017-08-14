@@ -13,6 +13,7 @@ export default class AboutUs extends Component {
         </div>
         <div className="col-md-12 cards">
           <div className="row cards-row">
+            <div className="background-block"></div>
             <div className="description-card col-md-4">
               <div className="card-title">
                 <h3 className="title-thin"> WE ARE </h3>

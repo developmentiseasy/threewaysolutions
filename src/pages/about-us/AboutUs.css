@@ -37,8 +37,7 @@
 }
 
 .AboutUs .cards .cards-row .description-card {
-  padding: 0;
-  margin-bottom: 13vh;
+  padding: 0 2vw 0 0;
 }
 
 .AboutUs .cards .cards-row .description-card .card-title {
@@ -57,7 +56,7 @@
 
 .AboutUs .cards .cards-row .description-card .card-context {
   font-size: .85vw;
-  padding-bottom: 15vh;
+  padding-bottom: 8vh;
 }
 
 .AboutUs .cards .cards-row .description-card .card-context .his{

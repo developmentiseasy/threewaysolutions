@@ -57,6 +57,7 @@
 
 .AboutUs .cards .cards-row .description-card .card-context {
   font-size: .85vw;
+  padding-bottom: 15vh;
 }
 
 .AboutUs .cards .cards-row .description-card .card-context .his{
@@ -64,9 +65,10 @@
 }
 .background-block {
   background: #636c72;
-  width: 31vw;
-  height: 50vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -5vw;
   position: absolute;
-  margin-left: -4vw;
   opacity: 0.1;
 }

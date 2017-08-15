@@ -25,7 +25,16 @@ export default class AboutUs extends Component {
                 odio odit officia placeat quo quod repudiandae soluta, tempore veniam
                 <span className="his">his</span></p>
             </div>
-            <div className="description-card col-md-4">2</div>
+            <div className="description-card-2 col-md-4">
+              <p className="card-context-2"><span className="The-text-of-the-second-card">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Dolor eveniet exercitationem modi neque
+                pariatur quidem reiciendis. Consectetur eius facilis placeat sequi ut? Architecto autem, beatae
+                cupiditate fugit illo in incidunt ipsum itaque laboriosam magni quam, reprehenderit, similique tempora
+                velit voluptate.</p>
+              <div className="card-title">
+              <h3 className="subtitle-bold-2"> we are </h3>
+              <h3 className="title-thin-2">AMBITIOUS</h3>
+              </div>
+            </div>
             <div className="description-card col-md-4">3</div>
           </div>
           <div className="row cards-row">

@@ -62,6 +62,7 @@
 .AboutUs .cards .cards-row .description-card .card-context .his{
   font-weight: 900;
 }
+
 .background-block {
   background: #636c72;
   top: 0;
@@ -70,4 +71,30 @@
   left: -5vw;
   position: absolute;
   opacity: 0.1;
+}
+
+.AboutUs .cards .cards-row .description-card-2 {
+  padding: 0 0 0 2vw;
+}
+
+.AboutUs .cards .cards-row .description-card-2 .The-text-of-the-second-card {
+  font-weight: 900;
+}
+
+.AboutUs .cards .cards-row .description-card-2 p.card-context-2 {
+  font-size: .85vw;
+  margin-top: 15vh;
+  text-align: right;
+}
+
+.AboutUs .cards .cards-row .description-card-2  h3.subtitle-bold-2 {
+  font-size: 2.5vw;
+  font-weight: bold;
+  text-align: right;
+  margin-top: -2vh;
+}
+
+.AboutUs .cards .cards-row .description-card-2 .title-thin-2 {
+  float: right;
+  color: #000000;
 }

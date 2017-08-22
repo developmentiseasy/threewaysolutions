@@ -11,6 +11,12 @@
   margin-top: -1vh;
 }
 
+.WeAreInitiativeCard .gray-boarder {
+  padding-top: -2.5vw;
+  border: .35vw solid #C9C9C9;
+  position: absolute;
+}
+
 .WeAreInitiativeCard .card-context {
   font-size: .85vw;
   text-align: right;

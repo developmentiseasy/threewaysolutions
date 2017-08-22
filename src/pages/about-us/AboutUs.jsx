@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 
+import WeAreCreativeCard from './components/cards/WeAreCreativeCard'
+import WeAreInitiativeCard from './components/cards/WeAreInitiativeCard'
+import WeAreAmbitiousCard from './components/cards/WeAreAmbitiousCard'
+
 import './AboutUs.css'
 
 export default class AboutUs extends Component {
@@ -13,34 +17,14 @@ export default class AboutUs extends Component {
         </div>
         <div className="col-md-12 cards">
           <div className="row cards-row">
-            <div className="description-card col-md-4">
-              <div className="background-block"/>
-              <div className="card-title">
-                <h3 className="title-thin"> WE ARE </h3>
-                <span className="subtitle-bold">creative</span>
-              </div>
-              <p className="card-context">Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. A architecto culpa dicta distinctio doloremque,
-                earum error esse est ex expedita fuga fugiat illum ipsum magni molestiae nulla
-                odio odit officia placeat quo quod repudiandae soluta, tempore veniam
-                <span className="his">his</span></p>
-            </div>
-            <div className="description-card-2 col-md-4">
-              <p className="card-context-2"><span className="The-text-of-the-second-card">Lorem</span> ipsum dolor sit amet, consectetur adipisicing elit. Dolor eveniet exercitationem modi neque
-                pariatur quidem reiciendis. Consectetur eius facilis placeat sequi ut? Architecto autem, beatae
-                cupiditate fugit illo in incidunt ipsum itaque laboriosam magni quam, reprehenderit, similique tempora
-                velit voluptate.</p>
-              <div className="card-title">
-              <h3 className="subtitle-bold-2"> we are </h3>
-              <h3 className="title-thin-2">AMBITIOUS</h3>
-              </div>
-            </div>
-            <div className="description-card col-md-4">3</div>
+            <WeAreCreativeCard/>
+            <WeAreAmbitiousCard/>
+            <WeAreInitiativeCard/>
           </div>
           <div className="row cards-row">
-            <div className="description-card col-md-4">4</div>
-            <div className="description-card col-md-4">5</div>
-            <div className="description-card col-md-4">6</div>
+            <WeAreCreativeCard/>
+            <WeAreInitiativeCard/>
+            <WeAreAmbitiousCard/>
           </div>
         </div>
       </div>

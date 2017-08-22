@@ -1,0 +1,21 @@
+.WeAreAmbitiousCard .The-text-of-the-second-card {
+  font-weight: 900;
+}
+
+.WeAreAmbitiousCard .card-context {
+  font-size: .85vw;
+  margin-top: 15vh;
+  text-align: right;
+}
+
+.WeAreAmbitiousCard .subtitle-bold {
+  font-size: 2.5vw;
+  font-weight: bold;
+  text-align: right;
+  margin-top: -2vh;
+}
+
+.WeAreAmbitiousCard .title-thin {
+  float: right;
+  color: #000000;
+}
